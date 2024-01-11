@@ -1,1 +1,3 @@
-feh --autorotate -Z -Y -z -D 5 /home/pi/frame_pi/photos/*.jpg
+#!/bin/bash
+
+feh --auto-zoom --borderless --fullscreen --hide-pointer --no-menus --randomize --recursive --slideshow-delay 15 /home/rlayzell/frame_pi/photos/*.jpg
